@@ -1,0 +1,11 @@
+.email_container_header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: .8rem 8px;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+
+.email_container_header button {
+    margin-right: 10px;
+}

@@ -1,0 +1,34 @@
+.sidebar_container {
+    width: 18%;
+    user-select: none;
+    padding-top:  1rem;
+}
+
+.sidebar_container .compose_btn {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    justify-content: center;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 0;
+    border-radius: 100px;
+    margin-bottom: 1.3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+.compose_btn:hover {
+    background: rgb(243, 243, 243);
+}
+
+.compose_btn .add_icon {
+    width: 25px;
+    height: 25px;
+}
+
+.compose_btn p {
+    margin-left: 8px;
+}

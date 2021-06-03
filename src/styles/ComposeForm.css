@@ -1,0 +1,56 @@
+main form {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    user-select: none;
+}
+
+form .compose_form_header {
+    padding: 10px 15px;
+    background: black;
+    border-radius: 10px 10px 0  0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compose_form_header .title {
+    font-size: 15px;
+}
+
+.compose_form_header svg {
+    cursor: pointer;
+}
+
+form .form_body {
+    padding: 5px 15px;
+    height: 76.3%;
+}
+
+.form_body input, textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    padding: 8px 0;
+    resize: none;
+}
+
+.form_body input {
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+
+.form_body textarea {
+    height: 85%;
+}
+
+.form_body .form_footer button {
+    border-radius: 5px !important;
+    padding: 5px 25px
+}

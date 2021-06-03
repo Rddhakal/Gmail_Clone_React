@@ -1,0 +1,41 @@
+.email_container_type {
+    width: 100%;
+    display: flex;
+    user-select: none;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+
+.email_container_type .email_container_type_option {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: flex-start;
+    width: 25%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.email_container_type_option.active {
+    color: #e74c3c;
+    position: relative;
+    background: none;
+}
+
+.email_container_type_option.email_container_type_option.active::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #e74c3c;
+}
+
+.email_container_type_option:hover {
+    background: #f1f3f4;
+}
+
+.email_container_type_option p {
+    margin-left: 10px;
+}

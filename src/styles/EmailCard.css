@@ -1,0 +1,43 @@
+.email_card {
+    width: 100%;
+    max-height: 7vh;
+    min-height: 7vh;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+
+.email_card:hover {
+    background: #f1f3f4;
+}
+
+.email_card .email_card_left {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.email_card_left p {
+    margin-left: 4px;
+}
+
+.email_card_center {
+    width: 70%;
+}
+
+.email_card_center p {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+}
+
+.email_card_right p {
+    font-size: 14px;
+}
